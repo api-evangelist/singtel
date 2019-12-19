@@ -1,0 +1,49 @@
+{
+    "name": "SingTel",
+    "description": "<p>SingTel currently has stakes in 8 Telecom Operators in the Asia Pac Region - with 100% ownership in Singapore Telecommunications in Singapore and 100% in Optus in Australia. It has stakes ranging from 25% to 49% in 6 other major markets - India : Airtel ; Indonesia : Telkomsel ; Phillippines : Globe; Thailand : AIS ; Bangladesh : PBTL ; Pakistan : Warid. <\/p>\n\n<p>Arguably SingTel is the largest Pan Asian Telecom Operator considering its combined user base of over 260 million subscribers and operations in multiple countries. <\/p>\n\n<p>Serving both the corporate and consumer markets, the SingTel Group is committed to bringing the best of global communications to customers in the Asia Pacific and beyond. <\/p>\n\n<p>SingTel&#8217;s highly developed international network provides direct connections from Singapore to more than 100 countries. It is a major investor in many of the world&#8217;s most sophisticated submarine cable and satellite systems. The Group is the second largest satellite operator in the Asia Pacific.<\/p>",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/654_logo.png",
+    "tags": [
+        "have api",
+        "singapore",
+        "telecommunications"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/singtel\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "SingTel",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/654_logo.png",
+            "humanURL": "http:\/\/six.sg\/singtel-web-services",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/singtel-openapi.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Website",
+            "url": "http:\/\/six.sg\/singtel-web-services"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/singtel"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/singtel"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/SingTel"
+        }
+    ]
+}
