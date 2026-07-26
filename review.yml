@@ -1,0 +1,309 @@
+aid: singtel
+name: Singtel
+review:
+  question: >-
+    Does Singtel publish a real, self-serve public developer surface for its network,
+    CAMARA / Open Gateway, and CPaaS APIs?
+  answer: false
+  date: '2026-07-25'
+  reviewer: API Evangelist
+  homeMarket: Singapore
+  tier: mno-carrier
+  gated: true
+findings:
+  summary: |
+    Singtel is a supply-side carrier with no first-party developer surface. Every
+    developer-portal hostname probed on 2026-07-25 failed to resolve: developer.singtel.com,
+    developers.singtel.com, docs.singtel.com, opengateway.singtel.com,
+    developers.opengateway.singtel.com and paragon.singtel.com all return NXDOMAIN
+    (curl exit / HTTP 000). api.singtel.com resolves behind an Imperva WAF but returns
+    404 for /, /openapi.json, /swagger.json, /api-docs and
+    /.well-known/openid-configuration. The www.singtel.com business sitemap
+    (sitemap-business.xml, ~519 KB, fetched 2026-07-25) contains no /developer,
+    /developers, /api-docs or documentation path of any kind — the only API-adjacent
+    URLs are marketing product pages under /business/products-services/ and matching
+    lead-capture forms under /business/forms/support/.
+
+    What Singtel does publish is a product catalogue. SingVerify is a suite of five named
+    telco APIs — Number Verify, SIM Swap, Device Location, Device Roaming and Scam
+    Sniffer — described on two 200-OK marketing pages whose only call to action is
+    "Talk to a specialist". Singtel CPaaS lists an SMS API and a Voice API on the same
+    pattern. No endpoint, no base URL, no auth scheme, no scopes, no error model, no
+    sandbox, no SDK and no OpenAPI are published for any of them.
+
+    The commercial channel is federated and gated. Singtel's Paragon orchestration
+    platform powers the Bridge Alliance API Exchange (BAEx); baex.bridgealliance.com
+    returns HTTP 200 but is an explicit login wall — "a private site reserved for
+    approved BAEx partners" — with no public API catalogue behind it.
+
+    This is the sector's central finding in its purest form: Singtel owns the network
+    signals and has invested in the standards and the aggregation layer, but a developer
+    cannot reach any of it from singtel.com. The route to Singtel's capabilities is
+    through an aggregator — Aduna and its platform partners (Vonage, Sinch, Infobip,
+    Google Cloud), the Bridge Alliance exchange, or identity vendors such as IPification.
+  developerPortal:
+    url: ''
+    confirmed: false
+    verdict: >-
+      No developer portal exists. Marketing product pages plus enterprise enquiry forms only.
+    probes:
+      - url: https://developer.singtel.com
+        status: '000'
+        note: DNS NXDOMAIN — no A record.
+      - url: https://developers.singtel.com
+        status: '000'
+        note: DNS NXDOMAIN — no A record.
+      - url: https://docs.singtel.com
+        status: '000'
+        note: DNS NXDOMAIN — no A record.
+      - url: https://opengateway.singtel.com
+        status: '000'
+        note: DNS NXDOMAIN. Telefónica's opengateway.<domain> pattern has no Singtel equivalent.
+      - url: https://developers.opengateway.singtel.com
+        status: '000'
+        note: DNS NXDOMAIN.
+      - url: https://paragon.singtel.com
+        status: '000'
+        note: DNS NXDOMAIN. Paragon is documented only on www.singtel.com marketing pages.
+      - url: https://api.singtel.com/
+        status: '404'
+        note: Resolves to Imperva (unehw9i.impervadns.net / 45.60.31.24); returns 404 at root.
+      - url: https://www.singtel.com/developer
+        status: '404'
+      - url: https://www.singtel.com/developers
+        status: '404'
+      - url: https://www.singtel.com/api
+        status: '403'
+        note: WAF block, not a documentation path.
+      - url: https://www.singtel.com/opengateway
+        status: '404'
+      - url: https://www.singtel.com/business/api
+        status: '404'
+      - url: https://www.singtel.com/business/products-services/mobility/singverify
+        status: '200'
+        note: Marketing page. Lists five SingVerify APIs. CTA is "Talk to a specialist".
+      - url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+        status: '200'
+        note: Marketing page. Names Number Verify, Device Location, Scam Sniffer. No docs, no spec, no sandbox.
+      - url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas
+        status: '200'
+        note: Lists SMS API and Voice API. Sales enquiry only.
+      - url: https://www.singtel.com/business/products-services/5g/paragon
+        status: '200'
+        note: 5G / MEC / network-slice orchestration platform. No API docs, no CAMARA mention on the page itself.
+      - url: https://baex.bridgealliance.com/
+        status: '200'
+        note: >-
+          Bridge Alliance API Exchange commercial portal, powered by Singtel Paragon.
+          Login wall — "a private site reserved for approved BAEx partners". No public catalogue.
+  openapi:
+    harvested: false
+    specsCount: 0
+    note: |
+      No OpenAPI or Swagger document could be located for any Singtel API. Probed
+      https://api.singtel.com/openapi.json (404), /swagger.json (404), /api-docs (404).
+      No first-party GitHub organization exists (https://api.github.com/orgs/singtel → 404),
+      and a GitHub repository search for "singtel" returns only third-party EPG scrapers,
+      candidate coding assignments and unrelated projects. No openapi/ directory is included
+      in this repo because nothing real was found.
+  camara:
+    posture: >-
+      Genuine CAMARA participant on the supply side — SingVerify is a real, commercially
+      live implementation described as built on the GSMA Open Gateway framework, and Singtel
+      is an Aduna equity partner — but nothing is callable or documented from Singtel itself.
+    evidenceGrade: >-
+      Implementation confirmed, developer surface absent. This is stronger than a press
+      release (there are named, sold, in-production products and standards-body code
+      contributions) but weaker than a published API (no spec, no endpoint, no sandbox).
+    apisWithEvidence:
+      - name: Number Verification
+        singtelName: Number Verify API
+        evidence: >-
+          Named on the SingVerify product pages; reported as based on the GSMA Open Gateway
+          framework and federated with M1 for national Singapore coverage.
+      - name: SIM Swap
+        singtelName: SIM Swap API
+        evidence: Named in the SingVerify suite on www.singtel.com.
+      - name: Device Location / Location Verification
+        singtelName: Device Location API
+        evidence: >-
+          Named in the SingVerify suite; described as verifying login attempts originate on the
+          correct network in the correct country.
+      - name: Device Roaming Status / Device Status
+        singtelName: Device Roaming API
+        evidence: Named in the SingVerify suite on www.singtel.com.
+      - name: Anti-fraud / Scam Signal
+        singtelName: Scam Sniffer API
+        evidence: >-
+          Named in the SingVerify suite; detects active call state during a transaction to
+          interdict authorised-push-payment fraud. Singtel-branded rather than CAMARA-named.
+    apisNotFound:
+      - Quality on Demand (QoD)
+      - Carrier Billing
+      - KYC Match
+      - Device Swap
+      - Population Density
+    standardsBodyParticipation:
+      - url: https://github.com/camaraproject/EasyCLA/pull/39
+        note: >-
+          "Initiate EasyCLA - mhfoo@Singtel" (2024-08-26) — a Singtel engineer signing the
+          CAMARA contributor licence agreement. Direct evidence of participation, not just
+          a press mention.
+      - url: https://github.com/camaraproject/NumberVerification/issues/71
+        note: >-
+          Substantive security issue filed by the same Singtel contributor (2023-11-16)
+          proposing protection for the OAuth2 auth-code authorisation request endpoint.
+  openGateway:
+    member: true
+    evidence: >-
+      Singtel is a signatory to the GSMA Open Gateway Memorandum of Understanding and is
+      named among the operator groups in GSMA's Open Gateway announcements. SingVerify is
+      publicly described as based on the GSMA Open Gateway framework. Singtel does not,
+      however, operate a branded Open Gateway developer portal the way Telefónica does.
+  aduna:
+    equityPartner: true
+    evidence: >-
+      Singtel is one of the twelve communication service providers holding equity in Aduna,
+      the Ericsson network-API joint venture, alongside AT&T, Bharti Airtel, Deutsche Telekom,
+      KDDI, Orange, Reliance Jio, Telefónica, Telstra, T-Mobile, Verizon and Vodafone
+      (transaction completed July 2025). Aduna's developer platform partners — Google Cloud,
+      Infobip, Sinch and Vonage — are the practical developer channel.
+  regionalFederation:
+    platform: Singtel Paragon
+    exchange: Bridge Alliance API Exchange (BAEx)
+    note: >-
+      Announced 2024-07-24. Bridge Alliance (34 member operators) uses Singtel's Paragon
+      platform to aggregate member network authentication, user verification and network
+      quality APIs into a single CAMARA-based framework. Singtel is here acting as an
+      aggregation vendor to other carriers, not as a direct API publisher.
+    nationalFederation: >-
+      Singtel and M1 federated Number Verify and Device Location across their two networks —
+      reported as one of the first national-level telco API federations. StarHub and SIMBA
+      operate under the same MAS/IMDA Shared Responsibility Framework for phishing scams.
+  tmforum:
+    conformanceCertification: none-found
+    note: >-
+      No TM Forum Open API conformance certificate (TMF620, TMF622, TMF641 or otherwise) was
+      found published for Singtel. TM Forum has written about Paragon as a platform milestone,
+      and TM Forum Operate APIs are certifiable alongside CAMARA Service APIs under the GSMA
+      Open Gateway testing programme, but no Singtel certificate is public.
+  threeGppExposure:
+    nef: not-documented
+    scef: not-documented
+    networkSlicing: >-
+      Singtel Paragon publicly advertises on-demand 5G network slice creation and multi-access
+      edge compute (MEC) application deployment, plus a partner application marketplace. No
+      API, endpoint or specification for any of it is published.
+    edgeMec: >-
+      MEC deployment is a marketed Paragon capability; no developer-facing API is documented.
+  auth:
+    scheme: not-documented
+    ciba: not-found
+    note: >-
+      Singtel publishes no authentication documentation for any of its APIs. CAMARA specifies
+      OIDC and CIBA (Client-Initiated Backchannel Authentication) for network-based
+      authorization, and Singtel's own CAMARA contribution touches the OAuth2 auth-code flow,
+      but no CIBA endpoint, no OIDC discovery document and no scope list are exposed on any
+      Singtel host. https://api.singtel.com/.well-known/openid-configuration → 404 and
+      https://www.singtel.com/.well-known/openid-configuration → 404 (probed 2026-07-25).
+  webhooks:
+    documented: false
+    asyncapi: false
+    note: No webhook or event catalogue is published. No AsyncAPI document exists.
+  sdks:
+    firstParty: []
+    note: >-
+      No first-party SDK packages were found on npm, PyPI, Maven or NuGet. No Singtel GitHub
+      organization exists to host them.
+  postman:
+    publicWorkspace: false
+    note: No public Postman workspace was located for Singtel.
+  graphql:
+    documented: false
+  grpc:
+    documented: false
+  channelToDevelopers: >-
+    Aggregator-only. A developer cannot obtain Singtel network-API access from singtel.com.
+    The routes are Aduna and its platform partners (Vonage, Sinch, Infobip, Google Cloud),
+    the Bridge Alliance API Exchange for regional coverage, identity vendors such as
+    IPification, or a direct enterprise sales conversation with Singtel.
+  transports:
+    - protocol: REST
+      scheme: https
+      documented: false
+      note: >-
+        SingVerify and CPaaS are described as APIs but no base URL, path or payload is published.
+    - protocol: WebSocket
+      scheme: wss
+      documented: false
+    - protocol: GraphQL
+      documented: false
+    - protocol: gRPC
+      documented: false
+sources:
+  - url: https://www.singtel.com/business/products-services/mobility/singverify
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+    note: SingVerify suite — Number Verify, Device Location, Scam Sniffer, SIM Swap, Device Roaming. Sales CTA only.
+  - url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+    note: Per-API descriptions. No developer docs, no OpenAPI, no sandbox, no signup.
+  - url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+    note: CPaaS portfolio listing SMS API and Voice API; enquiry form only.
+  - url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas/sms-api
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+  - url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas/voice-api
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+  - url: https://www.singtel.com/business/products-services/5g/paragon
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+    note: Paragon 5G/MEC/slicing orchestration. No APIs or specs documented on the page.
+  - url: https://baex.bridgealliance.com/
+    type: Documentation
+    status: '200'
+    fetched: '2026-07-25'
+    note: BAEx partner portal — login wall, "private site reserved for approved BAEx partners".
+  - url: https://www.singtel.com/about-us/media-centre/news-releases/bridge-alliance-and-singtel-partner-to-launch-regional-telco-api-exchange-powered-by-singtel-paragon-platform
+    type: PressRelease
+    fetched: '2026-07-25'
+    note: 2024-07-24 announcement of BAEx powered by Paragon, aggregating member-operator network APIs.
+  - url: https://github.com/camaraproject/EasyCLA/pull/39
+    type: GitHub
+    fetched: '2026-07-25'
+    note: Singtel engineer CLA signing in the CAMARA project — direct standards participation.
+  - url: https://github.com/camaraproject/NumberVerification/issues/71
+    type: GitHub
+    fetched: '2026-07-25'
+    note: Singtel-filed security issue against the CAMARA Number Verification auth flow.
+  - url: https://www.ericsson.com/en/press-releases/2025/7/ericsson-announces-completion-of-aduna-transaction
+    type: PressRelease
+    fetched: '2026-07-25'
+    note: Confirms Singtel among the twelve CSP equity partners in Aduna.
+  - url: https://www.gsma.com/solutions-and-impact/gsma-open-gateway/
+    type: Standard
+    fetched: '2026-07-25'
+    note: GSMA Open Gateway operator commitment layer; Singtel is an MoU signatory.
+  - url: https://camaraproject.org/
+    type: Standard
+    fetched: '2026-07-25'
+    note: CAMARA — the Linux Foundation project that defines the network APIs as open OpenAPI specs.
+actions:
+  openapiHarvested: false
+  openapiDirectoryCreated: false
+  apisYmlCreated: true
+  reason: >-
+    Identity plus an honest, evidence-backed record of a partner-gated carrier. Seven real,
+    named, publicly described APIs are catalogued with their genuine product pages as
+    Documentation; no baseURL, no OpenAPI and no auth properties are asserted because none
+    are published. The openapi/ directory is deliberately omitted — nothing real was found.

@@ -1,0 +1,199 @@
+aid: singtel
+url: https://raw.githubusercontent.com/api-evangelist/singtel/refs/heads/main/apis.yml
+name: Singtel
+kind: company
+description: >-
+  Singtel (Singapore Telecommunications Limited) is Singapore's largest mobile network operator and
+  the anchor communications group of Southeast Asia, with a regional footprint that includes Optus in
+  Australia and associate stakes in Airtel, AIS, Globe and Telkomsel. In the network-API value chain
+  Singtel sits on the supply side: it owns the mobile network signals — SIM, line, device, location,
+  call state — that the CAMARA specifications turn into callable APIs, and it packages them for
+  Singapore as SingVerify, a five-API anti-fraud and identity suite built on the GSMA Open Gateway
+  framework. It also operates Paragon, its own 5G/edge/network orchestration platform, which powers
+  the Bridge Alliance API Exchange (BAEx) federating network APIs across Bridge Alliance member
+  operators, and it is one of the twelve carrier equity partners in Aduna, the Ericsson-led joint
+  venture that aggregates operator network APIs into a single global commercial channel. Its API
+  posture, however, is partner-gated and sales-led: as of July 2026 there is no first-party developer
+  portal (developer., developers., docs. and opengateway. subdomains do not resolve), no published
+  OpenAPI, no sandbox, no SDKs and no self-serve signup. Every SingVerify and CPaaS API page on
+  singtel.com terminates in an enterprise enquiry form, and the BAEx portal is an explicit login wall
+  for approved partners. Developers reach Singtel's network capabilities through aggregators — Aduna
+  and its platform partners (Vonage, Sinch, Infobip, Google Cloud), the Bridge Alliance exchange, or
+  identity vendors such as IPification — rather than directly from Singtel.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+tags:
+- Telecommunications
+- Singapore
+- Mobile Network Operator
+- Network APIs
+- CAMARA
+- Open Gateway
+- SIM Swap
+- Identity Verification
+- Anti-Fraud
+- CPaaS
+- Messaging
+- Voice
+- IoT
+- 5G
+- Edge Computing
+- Aduna
+- Partner Gated
+created: '2026-07-25'
+modified: '2026-07-25'
+specificationVersion: '0.19'
+apis:
+- aid: singtel:singverify-number-verify-api
+  name: SingVerify Number Verify API
+  description: >-
+    Network-based verification that the mobile number a user declares is the number of the SIM the
+    request is actually coming from, used to replace or reinforce SMS OTP. Singtel documents this as
+    the CAMARA-aligned Number Verification capability delivered under the GSMA Open Gateway framework
+    and federated with M1 for national coverage. Published as a product page only — no API reference,
+    no OpenAPI, no sandbox; access is via enterprise enquiry.
+  humanURL: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  tags:
+  - Number Verification
+  - CAMARA
+  - Identity Verification
+  - Authentication
+  - Anti-Fraud
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify
+- aid: singtel:singverify-sim-swap-api
+  name: SingVerify SIM Swap API
+  description: >-
+    Real-time signal indicating whether the SIM bound to a mobile number has been changed recently, so
+    that a relying party can block account-takeover attempts that rely on intercepting SMS one-time
+    passcodes. Maps to the CAMARA SIM Swap API. Product page only — no API reference, no OpenAPI, no
+    sandbox; access is via enterprise enquiry.
+  humanURL: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  tags:
+  - SIM Swap
+  - CAMARA
+  - Anti-Fraud
+  - Account Takeover
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify
+- aid: singtel:singverify-device-location-api
+  name: SingVerify Device Location API
+  description: >-
+    Verifies whether a mobile device is within an expected area or country at the time of a login or
+    transaction, using network-derived location rather than handset GPS. Maps to the CAMARA Device
+    Location / Location Verification family. Product page only — no API reference, no OpenAPI, no
+    sandbox; access is via enterprise enquiry.
+  humanURL: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  tags:
+  - Device Location
+  - Location Verification
+  - CAMARA
+  - Anti-Fraud
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify
+- aid: singtel:singverify-device-roaming-api
+  name: SingVerify Device Roaming API
+  description: >-
+    Reports whether a subscriber's device is currently roaming outside Singapore, used as a risk
+    signal in fraud and authentication decisions. Maps to the CAMARA Device Roaming Status / Device
+    Status family. Product page only — no API reference, no OpenAPI, no sandbox; access is via
+    enterprise enquiry.
+  humanURL: https://www.singtel.com/business/products-services/mobility/singverify
+  tags:
+  - Device Roaming
+  - Device Status
+  - CAMARA
+  - Anti-Fraud
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+- aid: singtel:singverify-scam-sniffer-api
+  name: SingVerify Scam Sniffer API
+  description: >-
+    Detects whether a user is on an active voice call at the moment they attempt a high-value
+    transaction, a signal used to interdict authorised-push-payment and social-engineering fraud. This
+    is Singtel's counterpart to the CAMARA anti-fraud / Scam Signal work, branded and operated by
+    Singtel rather than published as a CAMARA-named product. Product page only — no API reference, no
+    OpenAPI, no sandbox; access is via enterprise enquiry.
+  humanURL: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  tags:
+  - Scam Signal
+  - Anti-Fraud
+  - Call State
+  - Payments
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/singverify
+- aid: singtel:singtel-cpaas-sms-api
+  name: Singtel CPaaS SMS API
+  description: >-
+    Application-to-person SMS sending and receiving for business applications, sold as part of the
+    Singtel CPaaS portfolio. The public page describes the capability and benefits but publishes no
+    endpoint, no authentication scheme, no API reference and no OpenAPI; the only call to action is a
+    Singtel CPaaS enquiry form.
+  humanURL: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas/sms-api
+  tags:
+  - SMS
+  - Messaging
+  - CPaaS
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas/sms-api
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas
+- aid: singtel:singtel-cpaas-voice-api
+  name: Singtel CPaaS Voice API
+  description: >-
+    Programmable voice / VoIP calling embedded into business applications, sold as part of the Singtel
+    CPaaS portfolio. As with the SMS API, the public page is a product description with an enquiry
+    form — no endpoint, no auth scheme, no API reference and no OpenAPI are published.
+  humanURL: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas/voice-api
+  tags:
+  - Voice
+  - VoIP
+  - CPaaS
+  properties:
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas/voice-api
+  - type: Documentation
+    url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas
+common:
+- type: Website
+  url: https://www.singtel.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/singtel
+- type: Blog
+  url: https://www.singtel.com/about-us/media-centre/news-releases
+- type: Documentation
+  url: https://www.singtel.com/business/products-services/mobility/singverify
+- type: Documentation
+  url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas
+- type: Documentation
+  url: https://www.singtel.com/business/products-services/5g/paragon
+- type: Documentation
+  url: https://www.singtel.com/business/products-services/5g/paragon-for-telcos
+- type: Documentation
+  url: https://www.singtel.com/business/products-services/iot
+- type: TermsOfService
+  url: https://www.singtel.com/business/products-services/mobility/terms/singverify-tnc
+- type: Partner
+  url: https://adunaglobal.com/
+- type: Partner
+  url: https://baex.bridgealliance.com/
+- type: Standard
+  url: https://camaraproject.org/
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
