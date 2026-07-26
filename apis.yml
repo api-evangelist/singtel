@@ -19,7 +19,14 @@ description: >-
   singtel.com terminates in an enterprise enquiry form, and the BAEx portal is an explicit login wall
   for approved partners. Developers reach Singtel's network capabilities through aggregators — Aduna
   and its platform partners (Vonage, Sinch, Infobip, Google Cloud), the Bridge Alliance exchange, or
-  identity vendors such as IPification — rather than directly from Singtel.
+  identity vendors such as IPification — rather than directly from Singtel. Two surfaces do
+  exist and are captured here: www.singtel.com publishes a first-party llms.txt family
+  (root plus consumer, support and corporate companion files, last updated 2026-06-30)
+  that indexes its marketing and support estate for AI systems while naming none of its
+  APIs, and Singtel runs a footer-linked vulnerability disclosure programme at
+  vdp.singtel.com and on HackerOne. api.singtel.com is a live Apigee gateway behind
+  Imperva that answers every unrouted path with an Apigee fault envelope — a real gateway
+  with nothing publicly bound to it.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Telecommunications
@@ -170,12 +177,30 @@ apis:
   - type: Documentation
     url: https://www.singtel.com/business/products-services/mobility/mobility-solutions/singtel-cpaas
 common:
+- type: DomainSecurity
+  url: security/singtel-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/singtel-vulnerability-disclosure.yml
+- type: Security
+  url: https://vdp.singtel.com/
+- type: LLMsTxt
+  url: llms/singtel-llms.txt
+- type: Packages
+  url: packages/singtel-packages.yml
+- type: Conformance
+  url: conformance/singtel-conformance.yml
+- type: Lifecycle
+  url: lifecycle/singtel-lifecycle.yml
 - type: Website
   url: https://www.singtel.com/
 - type: LinkedIn
   url: https://www.linkedin.com/company/singtel
 - type: Blog
   url: https://www.singtel.com/about-us/media-centre/news-releases
+- type: Support
+  url: https://www.singtel.com/business/support
+- type: PrivacyPolicy
+  url: https://www.singtel.com/data-protection
 - type: Documentation
   url: https://www.singtel.com/business/products-services/mobility/singverify
 - type: Documentation
@@ -186,8 +211,12 @@ common:
   url: https://www.singtel.com/business/products-services/5g/paragon-for-telcos
 - type: Documentation
   url: https://www.singtel.com/business/products-services/iot
+- type: Documentation
+  url: https://www.singtel.com/business/products-services/5g/paragon-for-enterprises
 - type: TermsOfService
   url: https://www.singtel.com/business/products-services/mobility/terms/singverify-tnc
+- type: TermsOfUse
+  url: https://www.singtel.com/standard-agreement
 - type: Partner
   url: https://adunaglobal.com/
 - type: Partner

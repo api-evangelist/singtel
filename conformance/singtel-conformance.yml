@@ -1,0 +1,127 @@
+generated: '2026-07-25'
+method: searched
+source: >-
+  Singtel SingVerify product pages, GSMA Open Gateway programme, CAMARA project GitHub
+  activity, Aduna and Bridge Alliance announcements (all fetched 2026-07-25)
+note: >-
+  Singtel is a genuine participant in the telco-API standards stack on the supply side —
+  GSMA Open Gateway MoU signatory, CAMARA contributor, Aduna equity partner, and the
+  platform vendor behind the Bridge Alliance API Exchange — but it publishes no
+  machine-readable contract of its own, so every conformance claim below is evidenced by
+  product naming, standards-body activity or corporate announcement rather than by a spec
+  we could parse. Nothing here is asserted from a Singtel-published OpenAPI, because none
+  exists (see well-known/singtel-well-known.yml for the probe record). "conforms: null"
+  means undetermined — the capability is named and sold but no public artifact lets us
+  verify the wire contract.
+standards:
+- id: camara
+  name: CAMARA Project (Linux Foundation) telco API specifications
+  conforms: true
+  scope: partial
+  evidence: >-
+    Four of the five SingVerify APIs carry CAMARA capability names — Number Verify
+    (CAMARA Number Verification), SIM Swap (CAMARA SIM Swap), Device Location (CAMARA
+    Device Location / Location Verification) and Device Roaming (CAMARA Device Roaming
+    Status / Device Status). Singtel engineers appear directly in the CAMARA repositories:
+    camaraproject/EasyCLA PR #39 ("Initiate EasyCLA - mhfoo@Singtel", 2024-08-26) and
+    camaraproject/NumberVerification issue #71, a substantive security proposal on the
+    OAuth2 authorization-code request endpoint (2023-11-16).
+  caveat: >-
+    Implementation is real and commercially live; conformance is unverifiable because no
+    Singtel-published OpenAPI, endpoint or CAMARA test report is public.
+  reference: https://camaraproject.org/
+- id: gsma-open-gateway
+  name: GSMA Open Gateway
+  conforms: true
+  scope: programme-membership
+  evidence: >-
+    Singtel is a signatory to the GSMA Open Gateway Memorandum of Understanding and
+    SingVerify is publicly described as built on the GSMA Open Gateway framework. Unlike
+    Telefónica, Singtel operates no branded Open Gateway developer portal
+    (opengateway.singtel.com is NXDOMAIN).
+  reference: https://www.gsma.com/solutions-and-impact/gsma-open-gateway/
+- id: oauth2
+  name: OAuth 2.0
+  conforms: null
+  evidence: >-
+    Undetermined. CAMARA mandates OAuth2/OIDC for network-API authorization and Singtel's
+    own CAMARA contribution addresses the OAuth2 authorization-code request, but Singtel
+    publishes no authentication documentation, no client registration and no token
+    endpoint. api.singtel.com/.well-known/oauth-authorization-server → 404.
+- id: openid-connect
+  name: OpenID Connect
+  conforms: null
+  evidence: >-
+    Undetermined. No OIDC discovery document is served on any Singtel host
+    (api.singtel.com and www.singtel.com /.well-known/openid-configuration → 404).
+- id: oidc-ciba
+  name: OpenID Connect Client-Initiated Backchannel Authentication (CIBA)
+  conforms: null
+  evidence: >-
+    Undetermined. CIBA is the CAMARA-specified flow for network-based authentication of a
+    subscriber without a browser redirect; no Singtel CIBA endpoint or documentation was
+    found.
+- id: rfc9116-security-txt
+  name: RFC 9116 security.txt
+  conforms: false
+  evidence: >-
+    No /.well-known/security.txt on www.singtel.com, api.singtel.com or vdp.singtel.com
+    (probed 2026-07-25) — despite Singtel running a real vulnerability disclosure
+    programme (see security/singtel-vulnerability-disclosure.yml).
+- id: rfc9457-problem-details
+  name: RFC 9457 Problem Details for HTTP APIs
+  conforms: null
+  evidence: >-
+    Undetermined. The only machine-readable error shape observable from outside is the
+    Apigee fault envelope returned by api.singtel.com
+    ({"fault":{"faultstring":"...","detail":{"errorcode":"..."}}}), which is the gateway's
+    default, not a published Singtel error contract, and is not application/problem+json.
+- id: tmforum-open-api
+  name: TM Forum Open API conformance certification
+  conforms: false
+  evidence: >-
+    No TM Forum Open API conformance certificate (TMF620, TMF622, TMF641 or otherwise) is
+    published for Singtel, though TM Forum has written about Paragon as a platform
+    milestone and TM Forum Operate APIs are certifiable alongside CAMARA Service APIs
+    under the GSMA Open Gateway testing programme.
+- id: 3gpp-nef
+  name: 3GPP Network Exposure Function / SCEF
+  conforms: null
+  evidence: >-
+    Undetermined. Singtel Paragon markets on-demand 5G network-slice creation and MEC
+    application deployment — capabilities that sit on NEF-class exposure — but no NEF,
+    SCEF, endpoint or specification is documented publicly.
+- id: openapi
+  name: OpenAPI Specification
+  conforms: false
+  evidence: >-
+    No OpenAPI or Swagger document exists for any Singtel API. Probed api.singtel.com
+    /openapi.json, /openapi.yaml, /swagger.json, /v1/openapi.json, /api-docs, /docs and
+    /graphql — all 404 (Apigee fault envelope), 2026-07-25.
+- id: asyncapi
+  name: AsyncAPI
+  conforms: false
+  evidence: No event, streaming or webhook catalogue is published for any Singtel API.
+programme_membership:
+- name: Aduna
+  role: equity partner
+  detail: >-
+    One of the twelve communication service providers holding equity in Aduna, the
+    Ericsson-led network-API joint venture (transaction completed July 2025). Aduna's
+    platform partners — Google Cloud, Infobip, Sinch and Vonage — are the practical
+    developer channel to Singtel's network capabilities.
+  url: https://adunaglobal.com/
+- name: Bridge Alliance API Exchange (BAEx)
+  role: platform vendor and member operator
+  detail: >-
+    Bridge Alliance (34 member operators) runs BAEx on Singtel's Paragon platform to
+    aggregate member network authentication, user verification and network quality APIs
+    into a single CAMARA-based framework (announced 2024-07-24). The portal is a login
+    wall for approved partners; no public catalogue.
+  url: https://baex.bridgealliance.com/
+- name: National federation with M1
+  role: co-publisher
+  detail: >-
+    Number Verify and Device Location are federated across the Singtel and M1 networks —
+    reported as one of the first national-level telco API federations — giving relying
+    parties national coverage from a single integration.

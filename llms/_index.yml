@@ -1,0 +1,45 @@
+generated: '2026-07-25'
+method: searched
+source: https://www.singtel.com/llms.txt
+note: >-
+  Singtel publishes a real, first-party llms.txt surface on www.singtel.com — the root
+  file plus three linked companion files it calls "sitemaps" (consumer, support,
+  corporate). Every file below was fetched on 2026-07-25 and is stored verbatim; nothing
+  was generated. The root file self-declares Last Updated 2026-06-30, Language en-SG,
+  Region Singapore, Entity Singtel, Industry Telecommunications. Note the scope: these
+  files index Singtel's consumer, business-marketing, support and corporate pages for AI
+  systems — none of them reference a developer portal, an API reference, SingVerify, the
+  CPaaS APIs or Paragon, which is consistent with Singtel having no first-party developer
+  surface.
+files:
+- file: singtel-llms.txt
+  url: https://www.singtel.com/llms.txt
+  status: 200
+  fetched: '2026-07-25'
+  bytes: 5407
+  scope: root — brand, consumer group, business group, about, support, legal, related sites
+- file: singtel-consumer-llms.txt
+  url: https://www.singtel.com/consumer-llms.txt
+  status: 200
+  fetched: '2026-07-25'
+  bytes: 9960
+  scope: consumer mobile, broadband, TV, entertainment, lifestyle, promotions, rewards, account
+- file: singtel-support-llms.txt
+  url: https://www.singtel.com/support-llms.txt
+  status: 200
+  fetched: '2026-07-25'
+  bytes: 11379
+  scope: consumer support categories and help topics
+- file: singtel-about-llms.txt
+  url: https://www.singtel.com/about-llms.txt
+  status: 200
+  fetched: '2026-07-25'
+  bytes: 6877
+  scope: corporate, sustainability, investor relations, careers
+not_found:
+- url: https://www.singtel.com/business-llms.txt
+  status: 404
+  note: No business/enterprise companion file — the business group is a single link in the root file.
+- url: https://shop.singtel.com/llms.txt
+  status: 404
+  note: Referenced by the root file as "Singtel eCommerce Sitemap" but returns 404 (Next.js 404 shell) as of 2026-07-25.

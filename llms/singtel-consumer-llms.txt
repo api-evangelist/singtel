@@ -1,0 +1,95 @@
+# Singtel Consumer
+
+> Singtel Consumer provides mobile, fibre broadband, TV, entertainment, lifestyle, promotions, rewards, account management and support services for customers in Singapore. This includes Singtel mobile plans, 5G+ services, SIM Only plans, eSIM, fibre broadband plans, WiFi 7, Singtel TV, CAST entertainment subscriptions, lifestyle products, Singtel rewards, and self-service account management.
+
+This file provides a detailed guide to Singtel's consumer services on [www.singtel.com](http://www.singtel.com). For current prices, promotions, eligibility, contract terms, plan details, service availability and support instructions, refer to the linked canonical pages as the source of truth.
+
+**Last Updated:** 2026-06-30
+**Language:** en-SG
+**Region:** Singapore
+**Parent Site:** https://www.singtel.com/llms.txt
+**Entity:** Singtel Consumer
+**Industry:** Telecommunications
+**Primary Consumer Services:** Mobile, 5G+, SIM Only, eSIM, Fibre Broadband, WiFi 7, TV, Entertainment, Lifestyle Services, Rewards, Account Management, Support
+
+## Mobile
+
+* [Mobile](https://www.singtel.com/personal/products-services/mobile/): Main Singtel mobile hub for mobile plans, phone plans, SIM Only plans, 5G+, eSIM, CIS plans, roaming, mobile add-ons and related mobile services.
+* [Singtel 5G+](https://www.singtel.com/personal/products-services/mobile/5g-plus): Information about Singtel 5G+ mobile services, 5G network benefits and compatible mobile plans.
+* [SIM Only](https://www.singtel.com/personal/mobile/plans/sim-only): Singtel SIM Only plans for customers who want a mobile plan without buying a new device.
+* [eSIM](https://www.singtel.com/personal/mobile/services/postpaid-esim): Singtel eSIM information, supported devices and activation details.
+* [CIS Plans](https://www.singtel.com/personal/products-services/mobile/cis): Singtel Corporate Individual Scheme mobile plans and offers for eligible customers.
+* [Mobile Add-ons](https://www.singtel.com/personal/products-services/mobile/eform/addon-eform): Singtel mobile add-ons, value-added services and plan enhancements.
+* [Mobile Roaming](https://www.singtel.com/personal/products-services/mobile/roaming/all-plans): Singtel roaming plans, data roaming add-ons and overseas connectivity options.
+* [hi! by Singtel](https://www.singtel.com/personal/products-services/mobile/hi): Singtel's lower-tier mobile brand offering affordable no-contract mobile plans, eSIM sign-up, roaming benefits and value-focused mobile services.
+* [Singtel PayLater](https://www.singtel.com/personal/products-services/mobile/info/paylater): Singtel PayLater information for eligible purchases.
+* [Singtel Super Stacker](https://www.singtel.com/personal/products-services/mobile/singtel-super-stacker): Singtel mobile service or plan-related offer information, where available.
+
+## Mobile Devices and Online Shopping
+
+* [Singtel eCommerce](https://shop.singtel.com/): Singtel's eCommerce website for buying mobile phones, devices, accessories and selected Singtel services online.
+* [Phones with Singtel Plans](https://shop.singtel.com/phones/): Shop mobile phones with Singtel mobile plans.
+* [Accessories and Devices Without Plan](https://shop.singtel.com/accessories/): Shop lifestyle products, phones, devices, gadgets and accessories without a Singtel mobile plan.
+* [Postpaid Phone Plans](https://shop.singtel.com/plans): Sign up for Singtel mobile plans such as Singtel phone plans, SIM only plans and MobileShare plans through the online shop.
+
+## Broadband
+
+* [Broadband](https://www.singtel.com/personal/products-services/broadband/): Main Singtel broadband hub for fibre broadband plans, WiFi solutions, home connectivity and broadband add-ons.
+* [Broadband Add-ons](https://www.singtel.com/personal/products-services/broadband/add-ons): Singtel broadband add-ons and value-added services.
+* [WiFi 7](https://www.singtel.com/personal/products-services/broadband/wifi7): Singtel WiFi 7 broadband and router information for faster home connectivity.
+* [FibreEverywhere FTTR](https://www.singtel.com/personal/products-services/broadband/fibre-everywhere-fttr): Fibre-to-the-room home broadband solution designed to improve whole-home coverage.
+* [Smart Home](https://www.singtel.com/personal/products-services/broadband/smarthome): Singtel smart home and connected home solutions.
+* [New Homes](https://www.singtel.com/personal/products-services/shop/fibre?campaignid=atl-new-homes): Broadband promotions and setup information for new homes.
+* [Home Priority Plan](https://www.singtel.com/personal/products-services/broadband/homepriority): Broadband priority connectivity solution for homes.
+
+## Entertainment
+
+* [Singtel TV](https://www.singtel.com/personal/products-services/tv/): Singtel TV services, TV packs and home entertainment options.
+* [Singtel TV Packs](https://www.singtel.com/personal/products-services/tv/packs): Singtel TV pack options and channel bundles.
+* [Singtel TV Guide](https://www.singtel.com/personal/products-services/tv/tv-programme-guide): Singtel TV programme guide.
+* [Singtel TV Channel List](https://www.singtel.com/personal/products-services/tv/singtel-tv-channels): Singtel TV channel list and channel information.
+* [CAST](https://cast.singtel.com/): Singtel's entertainment and lifestyle subscription platform for apps, streaming services, sports, news and digital subscriptions.
+
+## Lifestyle Services
+
+* [Lifestyle Services](https://www.singtel.com/personal/products-services/lifestyle-services/): Main hub for Singtel lifestyle services, digital services and partner offerings.
+* [Singtel x NTUC](https://www.singtel.com/personal/products-services/lifestyle-services/ntuc): Singtel and NTUC-related benefits or services.
+* [Singtel Insurance](https://www.singtel.com/personal/products-services/lifestyle-services/insurance): Insurance-related products and services offered through Singtel.
+* [My Smart Network](https://www.singtel.com/personal/products-services/lifestyle-services/my-smart-network): Singtel smart network features and service management information.
+* [GXS Bank](https://www.singtel.com/personal/products-services/lifestyle-services/gxs): GXS Bank-related information and services.
+
+## Promotions
+
+* [Promotions](https://www.singtel.com/personal/promotions): Current Singtel consumer promotions across mobile, fibre broadband, TV, entertainment and lifestyle services.
+
+## Rewards
+
+* [Rewards](https://www.singtel.com/personal/my-account/rewards/): Singtel rewards and membership programmes for eligible customers.
+* [Singtel Red](https://www.singtel.com/personal/my-account/rewards/red-membership): Singtel Red rewards and membership benefits.
+* [Singtel Prestige](https://www.singtel.com/personal/my-account/rewards/singtel-prestige): Singtel Prestige membership benefits.
+* [Singtel UOB](https://www.singtel.com/personal/my-account/rewards/uob-card): Singtel UOB rewards or card-related benefits.
+* [yuu Rewards](https://www.singtel.com/personal/my-account/rewards/yuu): yuu rewards information for Singtel customers.
+* [Singtel Circle Line](https://www.singtel.com/personal/products-services/singtel-circle): Singtel customer benefits programme for eligible customers with multiple Singtel services.
+
+## My Account
+
+* [Manage Accounts](https://www.singtel.com/personal/my-account/manage-accounts/account-summary): Manage Singtel services, pay bills, manage add-ons, check plan details and update account information.
+* [Pay Bill](https://www.singtel.com/personal/my-account/bills-payments/pay-bills): Pay Singtel bills online.
+* [eBill](https://www.singtel.com/personal/my-account/bills-payments/bill-request-alerts): Set up or manage Singtel eBill.
+* [GIRO](https://www.singtel.com/personal/my-account/bills-payments/manage-giro): Set up or manage GIRO payment for Singtel bills.
+* [Payment Methods](https://www.singtel.com/personal/my-account/bills-payments/manage-credit-card): Manage Singtel payment methods.
+* [Singtel Circle Line Nomination](https://www.singtel.com/personal/my-account/manage-accounts/multi-line-nomination): Nominate eligible Singtel services to form Singtel Circle.
+* [PDPA Preferences](https://www.singtel.com/personal/my-account/manage-accounts/personal-data-protection-act): Manage personal data protection and marketing communication preferences.
+* [My Singtel App](https://www.singtel.com/personal/my-account/manage-accounts/my-singtel-app): My Singtel app information for managing Singtel services, bills, rewards and account details.
+
+## Consumer Support
+
+* [Singtel Support](https://www.singtel.com/personal/support): Main Singtel support hub for account and billing, mobile postpaid, mobile prepaid, broadband, Singtel TV, home line, online purchase and OnePass support.
+* [Account and Billing Support](https://www.singtel.com/personal/support/account-billing): Help with Singtel account, bills, payments and billing matters.
+* [Mobile Postpaid Support](https://www.singtel.com/personal/support/mobile-postpaid): Support for Singtel postpaid mobile plans and services.
+* [Mobile Prepaid Support](https://www.singtel.com/personal/support/prepaid-cards): Support for prepaid and hi! mobile services.
+* [Broadband Support](https://www.singtel.com/personal/support/broadband): Support for Singtel fibre broadband, WiFi and home connectivity.
+* [Singtel TV Support](https://www.singtel.com/personal/support/singtel-tv): Support for Singtel TV services, TV packs and set-top box matters.
+* [Home Line Support](https://www.singtel.com/personal/support/telephony): Support for Singtel home line and telephony services.
+* [Online Purchase Support](https://www.singtel.com/personal/support/online-purchases): Support for online orders, device purchases, delivery and collection.
+* [OnePass Support](https://www.singtel.com/personal/support/onepass): Support for Singtel OnePass login, account access and authentication.

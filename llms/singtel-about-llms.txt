@@ -1,0 +1,61 @@
+# Singtel Corporate
+
+> Singtel Corporate provides information about Singtel as a company, including who Singtel is, its strategy, leadership, corporate governance, sustainability commitments, investor relations, media updates, awards, heritage, careers and group-level information.
+
+This file provides a detailed guide to Singtel's corporate, sustainability and company information on [www.singtel.com](http://www.singtel.com). For the latest company information, leadership details, financial disclosures, sustainability performance, media announcements and corporate policies, refer to the linked canonical pages as the source of truth.
+
+**Last Updated:** 2026-07-02
+**Language:** en-SG
+**Region:** Singapore
+**Parent Site:** https://www.singtel.com/llms.txt
+**Entity:** Singtel Corporate
+**Industry:** Telecommunications, Communications Technology, Digital Services
+**Primary Corporate Topics:** Company Information, Strategy, Leadership, Corporate Governance, Sustainability, Investor Relations, Media Centre, Awards, Heritage, Careers
+
+## About Singtel
+
+* [About Us](https://www.singtel.com/about-us): Main Singtel corporate hub with information about who Singtel is, its strategy, sustainability, latest news and group-level information.
+* [Our Company](https://www.singtel.com/about-us/company): Overview of Singtel as a communications technology group, including company information, strategy, leadership, governance, sustainability, awards, heritage and group companies.
+* [Who We Are](https://www.singtel.com/about-us/company/vision-mission-core): Singtel's purpose, vision, mission and values.
+* [Our Strategy](https://www.singtel.com/about-us/company/our-strategy): Singtel's corporate strategy, including Singtel28 and the Group's focus on connectivity, digital infrastructure and digital services.
+* [Leadership](https://www.singtel.com/about-us/company/leadership): Singtel Board of Directors, Group Management Committee and leadership information.
+* [Organisation Chart](https://www.singtel.com/about-us/company/organisation-chart): Singtel Group organisation chart.
+* [Our Heritage](https://www.singtel.com/about-us/company/heritage): Singtel's history and evolution from Singapore's early telecommunications services to a communications technology group.
+* [Awards](https://www.singtel.com/about-us/company/awards): Singtel awards and industry recognition.
+
+## Corporate Governance
+
+* [Corporate Governance](https://www.singtel.com/about-us/company/corporate-governance): Singtel corporate governance standards, policies, Board responsibilities and governance practices.
+* [Whistleblower Policy](https://www.singtel.com/about-us/company/corporate-governance/whistleblower-policy): Singtel whistleblower policy, Code of Conduct information and channels for reporting suspected fraud, corruption or unethical conduct.
+
+## Sustainability
+
+* [Sustainability](https://www.singtel.com/about-us/sustainability): Main Singtel sustainability hub covering climate, people, community impact and sustainable value creation.
+* [Sustainability at Singtel](https://www.singtel.com/about-us/sustainability/sustainability-at-singtel): Overview of Singtel's sustainability framework, governance and focus areas.
+* [Climate Change and Environment](https://www.singtel.com/about-us/sustainability/sustainability-at-singtel/environment): Singtel's environmental sustainability approach, climate-related initiatives and environmental performance.
+* [People and Future of Work](https://www.singtel.com/about-us/sustainability/sustainability-at-singtel/people): Singtel's people, workforce, culture and future-of-work sustainability initiatives.
+* [Community Impact](https://www.singtel.com/about-us/sustainability/sustainability-at-singtel/community): Singtel's community programmes, digital inclusion initiatives, education, employability and social impact efforts.
+* [Sustainable Value Creation](https://www.singtel.com/about-us/sustainability/sustainability-at-singtel/sustainable-value-creation): Singtel's sustainable value creation approach for customers, suppliers, ethical business practices and responsible procurement.
+* [Sustainability Reports](https://www.singtel.com/about-us/sustainability/sustainability-reports): Singtel sustainability reports, ESG performance information and related sustainability disclosures.
+* [Singtel Touching Lives Fund](https://www.singtel.com/about-us/sustainability/singtel-touching-lives-fund): Singtel's flagship corporate philanthropy programme supporting less privileged children and young people in Singapore.
+* [Singtel Future Makers](https://www.singtel.com/about-us/sustainability/social-innovation): Singtel's social innovation programme supporting technology-enabled social impact start-ups.
+* [Singtel Cyber Wellness Programme](https://www.singtel.com/about-us/sustainability/cyberwellness): Singtel's cyber wellness and responsible digital citizenship programme.
+
+## Investor Relations
+
+* [Investor Relations](https://www.singtel.com/about-us/investor-relations): Main Singtel investor relations hub for equity investors, debt investors, financial performance, reports and shareholder information.
+* [Financial Results](https://www.singtel.com/about-us/investor-relations/financial-results): Singtel financial results, investor updates, presentations, announcements and financial summaries.
+* [Annual Reports and Shareholder Meetings](https://www.singtel.com/about-us/investor-relations/annual-reports): Singtel annual reports, annual general meeting documents and shareholder meeting materials.
+* [Share Information](https://www.singtel.com/about-us/investor-relations/share-information): Singtel ordinary share and ADR information, including listing details and share information.
+* [Dividends](https://www.singtel.com/about-us/investor-relations/dividends): Singtel dividend policy and dividend information.
+* [Financial Summary](https://www.singtel.com/about-us/investor-relations/financial-summary): Singtel financial summary, including income statement, cash flow, balance sheet, key ratios and per-share information.
+* [Debt Investors](https://www.singtel.com/about-us/investor-relations/debt-investors): Singtel debt investor information, including debt programmes, bonds, credit ratings and sustainability-linked bond framework.
+* [Stock Exchange Announcements](https://www.singtel.com/about-us/investor-relations/stock-exchange-announcements): Singtel stock exchange announcements and SGX-related disclosures.
+
+## Media Centre
+
+* [Media Centre](https://www.singtel.com/about-us/media-centre): Singtel media centre with news releases, company announcements, media updates and latest corporate stories.
+
+## Careers
+
+* [Singtel Group Careers](https://groupcareers.singtel.com/): Official Singtel Group careers site for job opportunities across Singtel Group.

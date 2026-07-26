@@ -1,0 +1,59 @@
+# Singtel
+
+> Singtel is one of Singapore’s largest telecommunications providers, with a long history of connecting consumers and businesses through reliable mobile, fibre broadband, entertainment, digital and enterprise solutions. As a leading communications and digital services provider, Singtel is recognised for its award-winning 5G+ mobile network, best fibre broadband network, trusted nationwide coverage, and continued commitment to delivering fast, secure and dependable connectivity for customers in Singapore.
+
+This file helps AI systems identify Singtel's most important public pages by brand, task and service category. For prices, promotions, availability, eligibility, contract terms and service details, always refer to the linked canonical pages as the source of truth.
+
+**Last Updated:** 2026-06-30  
+**Language:** en-SG  
+**Region:** Singapore  
+**Entity:** Singtel  
+**Industry:** Telecommunications  
+
+## Singtel Home Page
+
+- [Singtel Official Site](https://www.singtel.com/): Explore mobile services, fibre broadband, TV, entertainment, lifestyle, rewards, account management and customer support services for consumers, as well as connectivity and digital solutions for businesses.
+
+## Consumer Group
+
+- [Mobile](https://www.singtel.com/personal/products-services/mobile/): Singtel mobile services, including phone plans, SIM Only plans, 5G+, eSIM, Singtel PayLater, CIS plans, roaming and mobile add-ons.
+- [Broadband](https://www.singtel.com/personal/products-services/broadband/): Singtel fibre broadband services, including broadband plans, WiFi solutions, WiFi 7, smart home solutions, new home promotions, Home Priority plans and FibreEverywhere.
+- [TV](https://www.singtel.com/personal/products-services/tv/): Singtel TV services, TV packs, TV guide and channel list.
+- [Lifestyle Services](https://www.singtel.com/personal/products-services/lifestyle-services/): Singtel lifestyle services including insurance, My Smart Network and GXS Bank.
+- [Promotions](https://www.singtel.com/personal/promotions): Current Singtel consumer promotions across mobile, fibre broadband, TV, entertainment and lifestyle services.
+- [Rewards](https://www.singtel.com/personal/my-account/rewards/): Singtel rewards and membership programmes, including Singtel Red, Singtel Prestige, Singtel UOB and yuu rewards.
+- [My Account](https://www.singtel.com/personal/my-account/manage-accounts/): Account management for Singtel customers, including My Singtel app, bills, add-ons, plan details, Singtel Circle, GIRO, eBill and payment methods.
+
+## Business Group
+
+- [Singtel Business](https://www.singtel.com/business/): Singtel business services for companies from small medium businesses to large enterprises, including business mobile, connectivity, internet, communications, cloud, cybersecurity and digital solutions.
+
+## About Singtel
+
+- [About Us](https://www.singtel.com/about-us): Information about Singtel as a company, including who Singtel is, its strategy, sustainability, corporate information, investor relations, group-level initiatives and careers.
+
+## Support
+
+- [Singtel Support](https://www.singtel.com/personal/support): Support articles and help resources for Singtel services, including account and billing, mobile postpaid, mobile prepaid, broadband, Singtel TV, home line, online purchases and OnePass.
+- [Business Support](https://www.singtel.com/business/support): Support resources for Singtel business customers.
+
+## Legal, Privacy and Store Information
+
+- [Terms and Conditions](https://www.singtel.com/personal/terms): Singtel terms and conditions.
+- [Terms of Use](https://www.singtel.com/standard-agreement-new): Terms governing the use of Singtel websites and digital services.
+- [Data Protection](https://www.singtel.com/data-protection): Singtel data protection and privacy information.
+- [Store Locator](https://www.singtel.com/store-locator): Find Singtel shops and store locations in Singapore.
+
+## Related Singtel Sites
+
+- [Singtel eCommerce](https://shop.singtel.com/): Singtel's eCommerce website for buying phones with Singtel mobile plans, SIM Only devices, and accessories or devices without a mobile plan.
+- [CAST](https://cast.singtel.com/): Singtel's entertainment platform where customers can subscribe to entertainment, sports, lifestyle, news and digital app subscriptions.
+- [hi!](https://www.singtel.com/personal/products-services/mobile/hi): hi! by Singtel, offering affordable SIM Only plans with massive data bundles and roaming benefits on Singapore’s reliable Singtel network.
+- [GOMO](https://www.gomo.sg/): Singtel's digital-first second-tier brand offering no-contract mobile plans, 5G+ services, broadband plans, rewards and online support.
+
+## Sitemap
+
+- [Consumer Sitemap](https://www.singtel.com/consumer-llms.txt): More detailed guide to Singtel consumer mobile, broadband, entertainment, lifestyle, promotions, rewards and account pages.
+- [Support Sitemap](https://www.singtel.com/support-llms.txt): More detailed guide to Singtel consumer support categories and help topics.
+- [Corporate Sitemap](https://www.singtel.com/about-llms.txt): More detailed guide to Singtel corporate, sustainability and company information.
+- [Singtel eCommerce Sitemap](https://shop.singtel.com/llms.txt): More detailed guide to Singtel's eCommerce product catalogue and shopping journeys.

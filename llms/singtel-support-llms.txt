@@ -1,0 +1,103 @@
+# Singtel Support
+
+> Singtel Support provides help articles, FAQs, troubleshooting guides and self-service resources for Singtel consumer services in Singapore, including account and billing, mobile postpaid, mobile prepaid, broadband, Singtel TV, home line, online purchases and OnePass.
+
+This file provides a detailed guide to Singtel's consumer support categories and help topics on [www.singtel.com](http://www.singtel.com). For the latest support instructions, service eligibility, troubleshooting steps, account-specific actions, charges and contact options, refer to the linked canonical support pages as the source of truth.
+
+**Last Updated:** 2026-06-30
+**Language:** en-SG
+**Region:** Singapore
+**Parent Site:** https://www.singtel.com/llms.txt
+**Entity:** Singtel Support
+**Industry:** Telecommunications
+**Primary Support Categories:** Account and Billing, Mobile Postpaid, Mobile Prepaid, Broadband, Singtel TV, Home Line, Online Purchase, OnePass
+
+## Main Support
+
+* [Singtel Support](https://www.singtel.com/personal/support): Main Singtel consumer support hub for mobile, broadband, TV, billing, account, online purchase and OnePass enquiries.
+* [Self Help](https://www.singtel.com/personal/support/selfhelp): Self-help resources for Singtel customers, including ways to get support, use My Singtel app and contact Singtel.
+* [Contact Us](https://www.singtel.com/contact-us): Contact information for Singtel consumer, prepaid, business and general enquiries.
+* [Store Locator](https://www.singtel.com/store-locator): Find Singtel shops and store locations in Singapore.
+
+## Account and Billing Support
+
+* [Account and Billing Support](https://www.singtel.com/personal/support/account-billing): Support for Singtel account matters, billing enquiries, payment methods, service agreements, ownership transfer, recontract eligibility and account updates.
+* [View Detailed Bill Charges](https://www.singtel.com/personal/support/billing/view-detailed-bill-charges): Learn how to view detailed Singtel bill charges, payment details, data usage and final bill information.
+* [Bill Payment Methods](https://www.singtel.com/personal/support/billing/bill-payment-methods): Information on available Singtel bill payment methods.
+* [Request eBill or Paper Bill](https://www.singtel.com/personal/support/billing/request-for-eBill-or-paper-bill): Learn how to switch to eBill, request paper bills or retrieve past bills.
+* [Update Personal Information](https://www.singtel.com/personal/support/account/update-personal-information/msta): Update Singtel profile, contact details, billing address and mailing address.
+* [Check Recontract Eligibility](https://www.singtel.com/personal/support/recontract-eligibility/msta): Check recontract eligibility for Singtel services.
+* [Manage Accounts](https://www.singtel.com/personal/my-account/manage-accounts/): Manage Singtel services, bills, add-ons, account details and service information.
+
+## Mobile Postpaid Support
+
+* [Mobile Postpaid Support](https://www.singtel.com/personal/support/mobile-postpaid): Support for Singtel postpaid mobile plans, SIM cards, eSIM, 5G, data usage, roaming, mobile add-ons, line ownership and device-related issues.
+* [eSIM Support](https://www.singtel.com/personal/support/mobile-postpaid/esim): Support for purchasing, setting up and managing eSIM for Singtel postpaid mobile plans.
+* [Activate and Use New SIM](https://www.singtel.com/personal/support/mobile-postpaid/activate-and-use-new-sim): Instructions for activating and using a new Singtel SIM card.
+* [Check Local Data Usage](https://www.singtel.com/personal/support/mobile-postpaid/check-local-data-usage/msta): Check local mobile data usage for Singtel postpaid lines.
+* [Unable to Use Mobile Data](https://www.singtel.com/personal/support/mobile-postpaid/unable-to-use-local-data): Troubleshooting support for mobile data issues.
+* [Unable to Make Outgoing Calls](https://www.singtel.com/personal/support/mobile-postpaid/unable-to-make-outgoing-calls): Troubleshooting support for outgoing mobile call issues.
+* [Unable to Receive Incoming Calls](https://www.singtel.com/personal/support/mobile-postpaid/unable-to-receive-incoming-calls): Troubleshooting support for incoming mobile call issues.
+* [Using Data Roaming That Comes With Mobile Plan](https://www.singtel.com/personal/support/mobile-postpaid/using-data-roaming-comes-with-mobile-plan): Support for using roaming data included with selected mobile plans.
+* [Avoid Unintended Roaming Charges](https://www.singtel.com/personal/support/mobile-postpaid/avoid-unintended-roaming-charges): Guidance on avoiding unintended roaming charges.
+* [Unable to Use Roaming Service](https://www.singtel.com/personal/support/mobile-postpaid/unable-to-use-roaming-service): Troubleshooting support for roaming service issues.
+* [Mobile Roaming](https://www.singtel.com/personal/products-services/mobile/roaming): Singtel roaming plans and travel connectivity options.
+
+## Mobile Prepaid and hi! Support
+
+* [Mobile Prepaid Support](https://www.singtel.com/personal/support/prepaid-cards): Support for Singtel prepaid and hi! mobile services, including prepaid top-up, balance checks, roaming, eSIM and IDD.
+* [Prepaid eSIM Support](https://www.singtel.com/personal/support/prepaid-cards/esim): Support for managing and troubleshooting eSIM issues for prepaid plans.
+* [hi! Support](https://hi.singtel.com/faq): Support for managing and troubleshooting eSIM issues for prepaid plans.
+
+## Broadband Support
+
+* [Broadband Support](https://www.singtel.com/personal/support/broadband): Support for Singtel fibre broadband, WiFi, router setup, broadband add-ons, installation appointments, maintenance appointments and relocation matters.
+* [Broadband Troubleshooting](https://www.singtel.com/personal/support/broadband/troubleshoot): Troubleshooting support for WiFi issues, internet connection problems, slow speeds, router setup and broadband email issues.
+* [Unable to Connect to Internet](https://www.singtel.com/personal/support/broadband/unable-to-connect-to-internet): Troubleshooting support for broadband connection issues.
+* [Improve Slow Internet Speed](https://www.singtel.com/personal/support/broadband/improve-slow-internet-speed): Troubleshooting steps to improve slow broadband or WiFi speeds.
+* [Change WiFi Network Name and Password](https://www.singtel.com/personal/support/broadband/troubleshoot/change-wifi-name-password): Instructions to change WiFi network name and password.
+* [Change Installation Appointment](https://www.singtel.com/personal/support/broadband/change-installation-appointment): Manage broadband installation and relocation appointment changes.
+* [Set Up Broadband Device](https://www.singtel.com/personal/support/setup/set-up-broadband-device): Setup guide for Singtel broadband devices.
+* [Download Latest Firmware](https://www.singtel.com/personal/support/broadband/how-to-download-latest-firmware): Information on downloading the latest firmware for broadband devices.
+
+## Singtel TV Support
+
+* [Singtel TV Support](https://www.singtel.com/personal/support/singtel-tv): Support for Singtel TV installation, troubleshooting, programme guide help, set-top boxes and TV service enquiries.
+* [Set Up Singtel TV Set-Top Box](https://www.singtel.com/personal/support/setup/set-up-singtel-tv-set-top-box): Setup and troubleshooting guide for Singtel TV set-top boxes.
+* [Singtel TV Packs](https://www.singtel.com/personal/products-services/tv/packs): Singtel TV pack options and channel bundles.
+* [Singtel TV Guide](https://www.singtel.com/personal/products-services/tv/tv-guide): Singtel TV programme guide.
+* [Singtel TV Channel List](https://www.singtel.com/personal/products-services/tv/channel-list): Singtel TV channel list and channel information.
+* [CAST](https://cast.singtel.com/): Singtel's entertainment and lifestyle subscription platform for streaming, sports, news and digital subscriptions.
+
+## Home Line and Telephony Support
+
+* [Telephony Support](https://www.singtel.com/personal/support/telephony): Support for Singtel home line, Home Digital Line, landline number changes, special numbers and telephony value-added services.
+* [Set Up Home Line Service](https://www.singtel.com/personal/support/setup/set-up-home-line-service): Setup guide for Singtel home line services.
+* [Home Digital Line](https://www.singtel.com/personal/products-services/more/telephony-services/home-digital-line): Information about Singtel Home Digital Line services.
+* [Telephony Services](https://www.singtel.com/personal/products-services/lifestyle-services/telephony-services): Singtel home line and telephony service information.
+* [Home Service Relocation](https://www.singtel.com/personal/support/account/relocate-singtel-services-due-to-change-of-address): Information about relocating Singtel home services due to a change of address.
+
+## Online Purchase Support
+
+* [Online Purchases Support](https://www.singtel.com/personal/support/online-purchases): Support for Singtel online orders, payment, delivery, collection, SIM activation, returns and exchanges.
+* [Singtel eCommerce](https://shop.singtel.com/): Singtel's eCommerce website for buying mobile phones, devices, accessories and selected Singtel services online.
+* [Phones with Singtel Plans](https://shop.singtel.com/phones): Shop mobile phones with Singtel mobile plans.
+* [Accessories and Devices Without Plan](https://shop.singtel.com/accessories/): Shop devices, gadgets and accessories without a Singtel mobile plan.
+* [Store Locator](https://www.singtel.com/store-locator): Find Singtel shops and collection locations in Singapore.
+
+## OnePass Support
+
+* [OnePass Support](https://www.singtel.com/personal/support/onepass): Support for Singtel OnePass account registration, login, security, trusted devices and account access.
+* [Singtel Account Login](https://www.singtel.com/personal/my-account/login): Login page for Singtel My Account using OnePass.
+* [Manage Accounts](https://www.singtel.com/personal/my-account/manage-accounts/): Manage Singtel services, bills, add-ons, account details and service information using OnePass.
+* [My Singtel App](https://www.singtel.com/personal/products-services/lifestyle-services/my-singtel-app): My Singtel app information for managing Singtel services on mobile.
+
+## Common Self-Service Tasks
+
+* [Check Recontract Eligibility](https://www.singtel.com/personal/support/recontract-eligibility/msta): Check whether a Singtel service is eligible for recontract.
+* [Pay Bill](https://www.singtel.com/personal/my-account/bills/pay-bill): Pay Singtel bills online.
+* [eBill](https://www.singtel.com/personal/my-account/bills/ebill): Set up or manage Singtel eBill.
+* [GIRO](https://www.singtel.com/personal/my-account/bills/giro): Set up or manage GIRO payment for Singtel bills.
+* [Payment Methods](https://www.singtel.com/personal/my-account/bills/payment-methods): Manage Singtel payment methods.
+* [PDPA Preferences](https://www.singtel.com/personal/my-account/manage-accounts/pdpa): Manage personal data protection and marketing communication preferences.
+* [Service Relocation](https://www.singtel.com/personal/support/account/relocate-singtel-services-due-to-change-of-address): Information about relocating Singtel services when moving home.

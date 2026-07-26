@@ -1,0 +1,59 @@
+generated: '2026-07-25'
+method: searched
+source: npm registry search, PyPI, RubyGems, GitHub code/org search (2026-07-25)
+note: >-
+  No first-party Singtel client library exists on any public registry, and there is no
+  Singtel GitHub organization to host one (api.github.com/orgs/singtel, /singtel-group and
+  /SingtelParagon all return 404). This is consistent with the rest of Singtel's posture:
+  the SingVerify, CPaaS and Paragon APIs are sold through enterprise engagement, so
+  integration code is delivered under contract rather than published. What the registries
+  do contain is a small set of third-party and squatted artifacts, recorded below so a
+  future round does not mistake any of them for an official SDK.
+packages: []
+official_sdk_count: 0
+third_party:
+- language: ruby
+  registry: rubygems
+  name: singtel_sdp
+  version: 1.2.0
+  url: https://rubygems.org/gems/singtel_sdp
+  repository: https://github.com/dropmyemail/singtel_sdp
+  authors: Alan Moran, Tomas Rojas, Bruno Nubis, Wong Liang Zan
+  downloads: 4093
+  official: false
+  note: >-
+    Third-party Rails engine published by DropMyEmail, not by Singtel. Described as
+    providing "Singtel's SDP integration points to your rails app. Processes and translates
+    requests for the standard CRUD actions for Customers, Products, Users and OAuth SSO."
+    Useful as evidence that a partner-facing Singtel Service Delivery Platform (SDP) with
+    OAuth SSO and CRUD resources existed for contracted partners — but the platform itself
+    is undocumented publicly and this gem is a partner's own wrapper.
+- language: javascript
+  registry: npm
+  name: '@singtel-web/widgets'
+  url: https://www.npmjs.com/package/@singtel-web/widgets
+  official: false
+  note: >-
+    NOT a Singtel package. Self-described as "PoC package for @singtel-web/widgets
+    (harmless)" and published by the account "vestiairepoc" — a dependency-confusion
+    proof-of-concept squatting the @singtel-web scope. Its existence implies Singtel uses a
+    private @singtel-web npm scope internally, but nothing first-party is public.
+- language: javascript
+  registry: npm
+  name: '@peterindiola/singtel-ui'
+  url: https://www.npmjs.com/package/@peterindiola/singtel-ui
+  official: false
+  note: Unrelated personal table component using the Singtel name.
+registries_probed:
+- registry: npm
+  query: singtel
+  result: no first-party packages
+- registry: pypi
+  query: singtel
+  result: no first-party packages
+- registry: rubygems
+  query: singtel
+  result: one third-party gem (singtel_sdp)
+- registry: github
+  query: 'org:singtel / singtel in:name,description'
+  result: no organization (404); repository hits are third-party EPG scrapers, coding assessments and unrelated projects

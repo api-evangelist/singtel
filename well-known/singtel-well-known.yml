@@ -1,0 +1,95 @@
+generated: '2026-07-25'
+method: probed
+source: live probes of every Singtel host in apis.yml plus the API gateway host
+note: >-
+  No /.well-known/ document of any kind is published on any Singtel host. This is a
+  recorded negative, not a gap in the probe: every path below was fetched on 2026-07-25.
+  Two findings are worth keeping. First, api.singtel.com is a live Apigee API gateway —
+  every unrouted path returns the Apigee fault envelope
+  {"fault":{"faultstring":"Unable to identify proxy for host: secure and url: ..."}}
+  rather than a web-server 404, which confirms a real gateway is running behind the
+  Imperva edge but that no proxy is bound to any public discovery path. Second,
+  www.singtel.com serves a first-party llms.txt surface (see llms/) even though it serves
+  no /.well-known/ documents at all.
+hosts:
+- host: https://api.singtel.com
+  kind: api-gateway
+  edge: Imperva (unehw9i.impervadns.net / 45.60.31.24)
+  gateway: Apigee (fault envelope on every unrouted path)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  contract_probes:
+  - path: /openapi.json
+    status: 404
+  - path: /openapi.yaml
+    status: 404
+  - path: /swagger.json
+    status: 404
+  - path: /v1/openapi.json
+    status: 404
+  - path: /api-docs
+    status: 404
+  - path: /docs
+    status: 404
+  - path: /graphql
+    status: 404
+- host: https://www.singtel.com
+  kind: website
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/dnt-policy.txt
+    status: 404
+  other:
+  - path: /llms.txt
+    status: 200
+    file: ../llms/singtel-llms.txt
+  - path: /robots.txt
+    status: 200
+    note: 'Allows all; disallows /business/node/; declares Sitemap: https://www.singtel.com/sitemap-*.xml'
+  - path: /sitemap-business.xml
+    status: 200
+    note: 2,759 business URLs; no /developer, /developers, /api-docs or documentation path of any kind.
+- host: https://vdp.singtel.com
+  kind: vulnerability-disclosure-app
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    note: Ironically the VDP host itself publishes no security.txt; the policy is linked from the site footer instead.
+dns:
+  nxdomain:
+  - developer.singtel.com
+  - developers.singtel.com
+  - docs.singtel.com
+  - opengateway.singtel.com
+  - paragon.singtel.com
+  - status.singtel.com
+  - trust.singtel.com
+  - security.singtel.com
+  - portal.singtel.com
+  - partner.singtel.com
+  - apigw.singtel.com
+  - gateway.singtel.com
+  - apis.singtel.com
+  - sandbox.singtel.com
+  resolves:
+  - api.singtel.com
+  - vdp.singtel.com
+  - www.singtel.com

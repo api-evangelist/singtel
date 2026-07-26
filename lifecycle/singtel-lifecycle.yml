@@ -1,0 +1,61 @@
+generated: '2026-07-25'
+method: searched
+source: www.singtel.com support and business support pages, sitemap-business.xml (2026-07-25)
+note: >-
+  Singtel publishes no API lifecycle surface: no versioning policy, no deprecation or
+  sunset policy, no API status page, no SLA document and no changelog for SingVerify,
+  Singtel CPaaS or Paragon. What it does publish is operator-grade *service* lifecycle
+  communication aimed at subscribers and enterprise account holders — scheduled
+  maintenance notices, a fault-reporting and incident-monitoring page, and a 3G network
+  closure programme with its own acknowledgement forms. Those are recorded here because
+  they are the closest real thing to lifecycle transparency, but none of them is an API
+  artifact and none is wired as a StatusPage or Deprecation pointer.
+versioning:
+  scheme: not-documented
+  current: null
+  docs: null
+deprecation:
+  policy_url: null
+  sunset_header: null
+  note: >-
+    No RFC 8594 Sunset/Deprecation header support can be observed — there is no reachable,
+    documented API endpoint to observe headers on.
+sla:
+  url: null
+  uptime_target: null
+  note: >-
+    No public SLA for any Singtel API. Enterprise SLAs exist inside contracts and the
+    SingVerify terms and conditions page, but no numeric availability target is published.
+status_page: null
+status_page_note: >-
+  status.singtel.com is NXDOMAIN. No status.io / Statuspage.io / Atlassian-hosted status
+  surface exists for Singtel APIs or services. Third-party outage trackers
+  (outage.report, downdetector-style sites) are the only public availability signal —
+  they recorded a roughly nine-hour Singtel mobile network outage on 2026-03-17.
+operational_pages:
+- kind: incident-reporting
+  url: https://www.singtel.com/business/support/report-faults-and-monitor-incidents
+  status: 200
+  detail: >-
+    Business-customer page titled "Report faults and monitor status of incidents". A
+    fault-submission and account-scoped incident-tracking entry point, not a public status
+    dashboard.
+- kind: maintenance-notice
+  url: https://www.singtel.com/personal/support/broadband/maintenance-notice
+  status: 200
+  detail: >-
+    Scheduled maintenance notices for consumer internet services; Singtel states routine
+    maintenance runs twice weekly on weekdays between 1am and 5am.
+- kind: support
+  url: https://www.singtel.com/business/support
+  status: 200
+  detail: Business support hub — FAQs, forms and contact routes. No developer support channel.
+network_sunsets:
+- name: 3G network closure
+  detail: >-
+    Singtel operated a 3G shutdown programme with dedicated customer acknowledgement and
+    eCall forms (/business/forms/support/3G-closure, /3G-closure-acknowledgement,
+    /3G-closure-ecall). A genuine, well-communicated network-service sunset — the only
+    deprecation discipline Singtel exposes publicly, and it applies to radio access, not
+    to APIs.
+deprecated_operations: []
