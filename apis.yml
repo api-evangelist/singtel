@@ -27,6 +27,17 @@ description: >-
   vdp.singtel.com and on HackerOne. api.singtel.com is a live Apigee gateway behind
   Imperva that answers every unrouted path with an Apigee fault envelope — a real gateway
   with nothing publicly bound to it.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
 - Telecommunications
