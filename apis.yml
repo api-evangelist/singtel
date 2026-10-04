@@ -60,6 +60,24 @@ tags:
 - Open Gateway
 - SIM Swap
 - Identity Verification
+- Fraud Prevention
+- CPaaS
+- Messaging
+- Voice
+- IoT
+- 5G
+- Edge Computing
+- Aduna
+- Partner Gated
+tags_raw:
+- Telecommunications
+- Singapore
+- Mobile Network Operator
+- Network APIs
+- CAMARA
+- Open Gateway
+- SIM Swap
+- Identity Verification
 - Anti-Fraud
 - CPaaS
 - Messaging
@@ -87,6 +105,12 @@ apis:
   - CAMARA
   - Identity Verification
   - Authentication
+  - Fraud Prevention
+  tags_raw:
+  - Number Verification
+  - CAMARA
+  - Identity Verification
+  - Authentication
   - Anti-Fraud
   properties:
   - type: Documentation
@@ -102,6 +126,11 @@ apis:
     sandbox; access is via enterprise enquiry.
   humanURL: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
   tags:
+  - SIM Swap
+  - CAMARA
+  - Fraud Prevention
+  - Account Takeover
+  tags_raw:
   - SIM Swap
   - CAMARA
   - Anti-Fraud
@@ -123,6 +152,11 @@ apis:
   - Device Location
   - Location Verification
   - CAMARA
+  - Fraud Prevention
+  tags_raw:
+  - Device Location
+  - Location Verification
+  - CAMARA
   - Anti-Fraud
   properties:
   - type: Documentation
@@ -138,6 +172,11 @@ apis:
     enterprise enquiry.
   humanURL: https://www.singtel.com/business/products-services/mobility/singverify
   tags:
+  - Device Roaming
+  - Device Status
+  - CAMARA
+  - Fraud Prevention
+  tags_raw:
   - Device Roaming
   - Device Status
   - CAMARA
@@ -157,6 +196,11 @@ apis:
     OpenAPI, no sandbox; access is via enterprise enquiry.
   humanURL: https://www.singtel.com/business/products-services/mobility/singverify/types-of-api
   tags:
+  - Scam Signal
+  - Fraud Prevention
+  - Call State
+  - Payments
+  tags_raw:
   - Scam Signal
   - Anti-Fraud
   - Call State
